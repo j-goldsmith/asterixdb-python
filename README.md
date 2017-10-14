@@ -4,17 +4,17 @@ https://asterixdb.apache.org/docs/0.9.2/api.html
 
 AsterixConnection 
   
-  server - defaults to 'http://localhost'
+   server - defaults to 'http://localhost'
   
-  port - defaults to 19002
+   port - defaults to 19002
 
 AsterixConnection.query
   
-  statement - SQL++, required
+   statement - SQL++, required
   
-  pretty - response formatting, defaults to false
+   pretty - response formatting, defaults to false
   
-  client_context_id - defaults to None
+   client_context_id - defaults to None
   
 query 'mode' is always immediate. async and deferred not implemented.
 
